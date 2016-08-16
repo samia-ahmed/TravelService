@@ -9,7 +9,11 @@ To accomplish this, you'll be integrating with a few existing web services (for 
 ##Existing Services
 The following 'services' already exist in the project, and can be called to get the data you need to implement your solution:
        
-```interface TicketService {
+
+```
+#!java
+
+interface TicketService {
 
     List<Ticket> fetchTicketsOnPnr(String recordLocator)
 }
@@ -23,8 +27,10 @@ interface PriceService {
 
     List<PriceQuote> priceTrip(String origin, String destination, DateTime arrivalDate, DateTime departureDate)
 }
-
 ```
+
+
+
 
 
 ##Glossary of Travel Terms
