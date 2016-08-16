@@ -1,9 +1,12 @@
 #Yapta Take Home Question: Travel Service
 
 ##Summary
-Your goal here is to create a new travel service. The service has one requirement: given the record locator for an existing PNR (see the glossary at the bottom of the README), provide a list of lower prices in the same class of service as each of the tickets on the PNR. 
+Your goal here is to create a new travel service which, given the record locator for an existing PNR (see the glossary at the bottom of the README), can provide a list of lower prices in the same class of service as each of the tickets on the PNR. 
 
 To accomplish this, you'll be integrating with a few existing web services (for the purposes of this question, the 'services' have been simplified into fake clients which return stubbed data). Each service can provide a piece of the functionality you need. Two of the services are relatively modern, and will return data to you as POJOs. Unfortunately, one of the services is decades old, and is only capable of returning text - it will be up to you to extract the data you need from this service.
+
+##Requirements for Completion
+As mentioned above, the primary requirement is to create an HTTP endpoint that takes a record locator, and returns a list of lower prices in the same class of service as the existing tickets on the PNR. Beyond that, we just want to see what your idea of good, clean code is. Good luck!
 
 ##Getting Started
 At Yapta, we use IntelliJ as an IDE, which has a free community edition [here](https://www.jetbrains.com/idea/download/), but you can use whichever tools you're most comfortable with.
