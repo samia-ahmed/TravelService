@@ -60,10 +60,11 @@ interface PriceService {
 ##Rules
 
 This is a pretty wide open question - we want you to use all the same tools and problem solving techniques you would in a real work scenario. To that end, these are the rules:
-* You are welcome to add any external dependencies you think will help you solve the problem in the best way.
-* You can add as many new packages and classes as you need. You can also make changes to the existing code, as long as the basic functionality of the 3 provided "services" are not altered.
-* Use Google, Bing, Stackoverflow, etc. as much as you need to - they're great tools for real problem solving, and we don't want you to excludue them just because it's an interview question.
-* Our goal is for this to be completable in 1-2 hours of your time, but you can take however much time you need to implement a solution that you feel best represents your engineering ability, as long as it is finished in time for your follow-up interview, which we will schedule for a couple days after your in-person interview loop.
+
+ * You are welcome to add any external dependencies you think will help you solve the problem in the best way.
+ * You can add as many new packages and classes as you need. You can also make changes to the existing code, as long as the basic functionality of the 3 provided "services" are not altered.
+ * Use Google, Bing, Stackoverflow, etc. as much as you need to - they're great tools for real problem solving, and we don't want you to excludue them just because it's an interview question.
+ * Our goal is for this to be completable in 1-2 hours of your time, but you can take however much time you need to implement a solution that you feel best represents your engineering ability, as long as it is finished in time for your follow-up interview, which we will schedule for a couple days after your in-person interview loop.
 
 ##Glossary of Travel Terms
 
