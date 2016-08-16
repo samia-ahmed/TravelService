@@ -15,17 +15,42 @@ The following 'services' already exist in the project, and can be called to get 
 
 interface TicketService {
 
-    List<Ticket> fetchTicketsOnPnr(String recordLocator)
+    /**
+     * Returns details about the given ticket
+     * @param ticketNumber The ticketNumber to look up
+     */
+    Ticket fetchTicket(String ticketNumber) throws TicketNotFoundException;
 }
 
 interface PnrService {
 
-    String fetchPnr(String recordLocator)
+    /**
+     * Returns the raw PNR associated with the given record locator
+     * @param recordLocator the record locator of the PNR to fetch
+     * @return example:
+     *      RECLOC: ABCDEF
+     *      FLIGHTS:
+     *      1. AS 0277850344766
+     *          a. 487K 10OCT SEALAX HK1   250P  535P /DCAS*HJQTEX /E*
+     *          b. 486T 18OCT LAXSEA HK1   230P  513P /DCAS*HJQTEX /E*
+     *      HOTELS:
+     *       …
+     *
+     * The "FLIGHTS" section has a list of ticket numbers, which each have a list of flight segments on the ticket. In the
+     * example above, ticket number 0277850344766 is a direct, round-trip flight from SEA to LAX and back. The format of each segment is:
+     * {flightNumber} {departureDate} {originDestination} {segmentStatus}   {departureTime} {arrivalTime}   /{fareLadder} /E*
+     */
+    String fetchPnr(String recordLocator) throws PnrNotFoundException;
 }
 
 interface PriceService {
 
-    List<PriceQuote> priceTrip(String origin, String destination, DateTime arrivalDate, DateTime departureDate)
+    /**
+     * Provides pricing for the given list of segments
+     * @param segmentsToPrice the list of flight segments to provide pricing for
+     * @return Returns a list of PriceQuotes for the given trip
+     */
+    List<PriceQuote> fetchPrices(List<FlightSegment> segmentsToPrice);
 }
 ```
 
