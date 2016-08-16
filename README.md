@@ -13,7 +13,7 @@ If you do elect to use IntelliJ, you can import the project by selecting File->O
 The project skeleton is implemented using Dropwizard. If you're unfamiliar with it, they provide a helpful [Getting Started guide](http://www.dropwizard.io/1.0.0/docs/getting-started.html), and pretty thorough documentation. Additionally, the /pnrs endpoint has been included as an example of how to create an HTTP endpoint using Dropwizard. Finally, there are several simple unit tests as examples - we definitely encourage you to add your own tests so you can be confident that your solution works as expected.
 
 ##Existing Services
-The following 'services' already exist in the project, and can be called to get the data you need to implement your solution. These are simple stubs, which have 1 PNR loaded in them, record locator ABC123. If you run the app and go to /pnrs/ABC123, you can see what the raw PNR looks like.
+The following 'services' already exist in the project, and can be called to get the data you need to implement your solution. These are simple stubs, which have 1 PNR loaded in them, accessible using the record locator `ABC123`. If you run the app and go to /pnrs/ABC123, you can see what the raw PNR looks like.
 
 
 ```
