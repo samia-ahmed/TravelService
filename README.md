@@ -28,6 +28,15 @@ interface TicketService {
     Ticket fetchTicket(String ticketNumber) throws TicketNotFoundException;
 }
 
+public class Ticket {
+
+    private final Money price;
+    private final String ticketNumber;
+    private final ClassOfService classOfService;
+
+...
+}
+
 interface PnrService {
 
     /**
@@ -55,6 +64,23 @@ interface PriceService {
      */
     List<PriceQuote> fetchPrices(List<FlightSegment> segmentsToPrice);
 }
+
+public class PriceQuote {
+
+    private final Money price;
+    private final ClassOfService classOfService;
+...
+}
+
+public class FlightSegment {
+
+    private final String flightNumber;
+    private final String departureDate;
+    private final String origin;
+    private final String destination;
+...
+}
+
 ```
 
 ##Rules
