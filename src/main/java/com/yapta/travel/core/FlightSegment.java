@@ -11,7 +11,6 @@ public class FlightSegment {
     private final String destination;
 
     public FlightSegment(String flightNumber, String departureDate, String origin, String destination) {
-
         this.flightNumber = flightNumber;
         this.departureDate = departureDate;
         this.origin = origin;

@@ -2,7 +2,6 @@ package com.yapta.travel.client;
 
 import com.yapta.travel.core.FlightSegment;
 import com.yapta.travel.core.PriceQuote;
-import org.joda.time.DateTime;
 
 import java.util.List;
 
