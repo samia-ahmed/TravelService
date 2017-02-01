@@ -92,8 +92,8 @@ This is a pretty wide open question - we want you to use all the same tools and 
 
  * You are welcome to add any external dependencies you think will help you solve the problem in the best way.
  * You can add as many new packages and classes as you need. You can also make changes to the existing code, as long as the basic functionality of the 3 provided "services" are not altered.
- * Use Google, Bing, Stackoverflow, etc. as much as you need to - they're great tools for real problem solving, and we don't want you to excludue them just because it's an interview question.
- * Our goal is for this to be completable in 1-2 hours of your time, but you can take more time if you feel you need it to best represent your engineering abilities.We only ask that it be finished in time for your follow-up interview, which we will schedule for a couple days after your in-person interview loop.
+ * Use Google, Bing, Stackoverflow, etc. as much as you need to - they're great tools for real problem solving, and we don't want you to exclude them just because it's an interview question.
+ * Our goal is for this to be completable in a few hours of your time (assuming you're already familiar with our tools and Dropwizard), but you can take more time if you feel you need it to best represent your engineering abilities.We only ask that it be finished in time for your follow-up interview, which we will schedule for a couple days after your in-person interview loop.
 
 ##Glossary of Travel Terms
 
