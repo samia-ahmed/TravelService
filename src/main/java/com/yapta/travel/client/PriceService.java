@@ -17,7 +17,7 @@ public class PriceService implements IPriceService {
     private static final ImmutableMap<List<FlightSegment>, List<PriceQuote>> pricesByFlightSegments = ImmutableMap.<List<FlightSegment>, List<PriceQuote>>builder()
             .put(Lists.newArrayList(
                     new FlightSegment("487K", "10OCT", "SEA", "LAX"),
-                    new FlightSegment("487K", "18OCT", "LAX", "SEA")),
+                    new FlightSegment("486T", "18OCT", "LAX", "SEA")),
                 Lists.newArrayList(
                     new PriceQuote(Money.of(CurrencyUnit.USD, 285.15), ClassOfService.ECONOMY),
                     new PriceQuote(Money.of(CurrencyUnit.USD, 29000.00), ClassOfService.FIRST),
