@@ -20,7 +20,7 @@ public class PriceServiceTest {
         //Arrange
         List<FlightSegment> flightSegments = Lists.newArrayList(
                 new FlightSegment("487K", "10OCT", "SEA", "LAX"),
-                new FlightSegment("487K", "18OCT", "LAX", "SEA"));
+                new FlightSegment("486T", "18OCT", "LAX", "SEA"));
         List<PriceQuote> expectedPriceQuotes = Lists.newArrayList(
                 new PriceQuote(Money.of(CurrencyUnit.USD, 285.15), ClassOfService.ECONOMY),
                 new PriceQuote(Money.of(CurrencyUnit.USD, 29000.00), ClassOfService.FIRST),
@@ -40,7 +40,7 @@ public class PriceServiceTest {
         //Arrange
         List<FlightSegment> nonExistingFlightSegments = Lists.newArrayList(
                 new FlightSegment("487K", "10SEP", "SFO", "SAN"),
-                new FlightSegment("487K", "18SEP", "SAN", "SFO"));
+                new FlightSegment("486T", "18SEP", "SAN", "SFO"));
 
         //Act
         List<PriceQuote> actualPriceQuotes = priceService.fetchPrices(nonExistingFlightSegments);
