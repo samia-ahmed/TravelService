@@ -1,0 +1,16 @@
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/client/TicketService.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/core/Ticket.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/core/PriceQuote.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/client/IPriceService.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/core/FlightSegment.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/resources/PnrResource.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/client/TicketNotFoundException.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/client/PnrService.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/TravelConfiguration.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/client/ITicketService.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/core/ClassOfService.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/health/PnrHealthCheck.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/client/PriceService.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/client/PnrNotFoundException.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/client/IPnrService.java
+/Users/samia/Desktop/job_apps/Yapta/travel-service-java-samia-a/src/main/java/com/yapta/travel/TravelApplication.java

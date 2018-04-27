@@ -34,5 +34,36 @@ public class TravelApplication extends Application<TravelConfiguration> {
         environment.healthChecks().register("pnr", healthCheck);
 
         //TODO: add pricing endpoint
+
+        import javax.ws.rs.GET;
+        import javax.ws.rs.Path;
+        import javax.ws.rs.PathParam;
+        import javax.ws.rs.Produces;
+        import javax.ws.rs.core.MediaType;
+
+        @Path("/prices/{recordLocator}")
+        @Produces(MediaType.TEXT_PLAIN)
+        public class PnrResource {
+
+            private final IPnrService pnrService;
+
+            public PnrResource(IPnrService pnrService) {
+
+                this.pnrService = pnrService;
+            }
+
+            @GET
+            public String fetchPnr(@PathParam("recordLocator")String recordLocator) {
+                try {
+                    return pnrService.fetchPnr(recordLocator);
+                } catch (PnrNotFoundException e) {
+                    return "PNR NOT FOUND";
+                }
+            }
+
+        }
+
+
+        //create endpoint that can take in a record locator 
     }
 }
